@@ -9,7 +9,7 @@ public class Employee {
     private String role;
 
     // Constructor
-    public Employee(int id, String name, String email, String role) {
+    public Employee(String name, String email, String role) {
         this.id = id;
         this.name = name;
         this.email = email;
